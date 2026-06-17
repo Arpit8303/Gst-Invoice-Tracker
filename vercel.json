@@ -1,9 +1,7 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "Frontend/next.config.js",
-      "use": "@vercel/next"
-    }
-  ]
+  "framework": "nextjs",
+  "buildCommand": "cd Frontend && npm install && npm run build",
+  "outputDirectory": "Frontend/.next",
+  "installCommand": "echo skip"
 }
