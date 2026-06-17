@@ -3,9 +3,6 @@ import prisma from '@/lib/db';
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 import { formatINRForPDF } from '@/lib/gst';
 
-function formatPdfINR(amount: number): string {
-  return formatINR(amount).replace(/\u20B9/g, 'Rs. ');
-}
 
 interface PDFLineItem {
   name: string;
