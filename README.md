@@ -2,7 +2,7 @@
 
 A production-ready, full-stack GST Invoice Calculator built with Next.js 14 (App Router), Tailwind CSS, Prisma ORM, and MongoDB. Create invoices, see live GST breakdowns, download PDFs, and share invoices via a unique link — all for free.
 
-**Live demo:** [gst-invoice-tracker.vercel.app]
+**Live demo:** [[gst-invoice-tracker.vercel.app]](https://gst-invoice-tracker.vercel.app/)
 **GitHub repo:** [https://github.com/Arpit8303]
 
 ---
