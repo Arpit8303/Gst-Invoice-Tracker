@@ -130,8 +130,8 @@ prisma/
 
 ## Author
 
-**[Your Full Name]**
-[your.email@example.com](mailto:your.email@example.com)
+**[   Arpit Tiwari]**
+[arpittiwari1200@gmail.com)
 
 ---
 
