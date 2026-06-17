@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "git": {
-    "deploymentEnabled": {
-      "main": true
-    }
-  },
-  "buildCommand": "cd Frontend && npm run build",
-  "installCommand": "cd Frontend && npm install",
+  "buildCommand": "cd Frontend && npm install && npm run build",
+  "installCommand": "echo 'skip'",
   "outputDirectory": "Frontend/.next"
 }
