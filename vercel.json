@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "workDir": "Frontend"
+  "builds": [
+    {
+      "src": "Frontend/next.config.js",
+      "use": "@vercel/next"
+    }
+  ]
 }
