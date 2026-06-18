@@ -1,2 +1,2 @@
 #!/bin/bash
-cd Frontend && npm run build
+cd app && npm run build
