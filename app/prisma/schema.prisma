@@ -1,12 +1,10 @@
-// This is your Prisma schema file for MongoDB
-// Learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "mongodb"
+  url      = env("DATABASE_URL")
 }
 
 model Invoice {
@@ -17,8 +15,8 @@ model Invoice {
   gstin         String
   customerName  String
   customerGstin String?
-  supplyType    String   // "intra" | "inter"
-  lineItems     Json     // Array of {name, qty, rate, gstRate, taxable, tax, total}
+  supplyType    String
+  lineItems     Json
   subtotal      Float
   cgst          Float
   sgst          Float
